@@ -19,6 +19,7 @@ _We highly recommend reading the migration guide_, **especially** _the part on [
 
 ## About The Project
 
+<!-- 
 The goal of ERC721A is to provide a fully compliant implementation of IERC721 with significant gas savings for minting multiple NFTs in a single transaction. This project and implementation will be updated regularly and will continue to stay up to date with best practices.
 
 The [Azuki](https://twitter.com/AzukiOfficial) team created ERC721A for its sale on 1/12/22. There was significant demand for 8700 tokens made available to the public, and all were minted within minutes. The network BASEFEE remained low despite huge demand, resulting in low gas costs for minters, while minimizing network disruption for the wider ecosystem as well.
@@ -28,6 +29,7 @@ The [Azuki](https://twitter.com/AzukiOfficial) team created ERC721A for its sale
 For more information on how ERC721A works under the hood, please visit our [blog](https://www.azuki.com/erc721a). To find other projects that are using ERC721A, please visit [erc721a.org](https://www.erc721a.org) and our [curated projects list](https://github.com/chiru-labs/ERC721A/blob/main/projects.md).
 
 **Chiru Labs is not liable for any outcomes as a result of using ERC721A.** DYOR.
+ -->
 
 <!-- Docs -->
 
@@ -114,12 +116,15 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 
+<!--
 ## Contact
 
 - 2pm.flow (owner) - [@2pmflow](https://twitter.com/2pmflow)
 - location tba (owner) - [@locationtba](https://twitter.com/locationtba)
 - cygaar (maintainer) - [@cygaar_dev](https://twitter.com/cygaar_dev)
 - vectorized.eth (maintainer) - [@optimizoor](https://twitter.com/optimizoor)
+
+-->
 
 Project Link: [https://github.com/chiru-labs/ERC721A](https://github.com/chiru-labs/ERC721A)
 
