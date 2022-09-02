@@ -19,6 +19,10 @@ _We highly recommend reading the migration guide_, **especially** _the part on [
 
 ## About The Project
 
+For learning purpose
+
+.
+
 <!-- 
 The goal of ERC721A is to provide a fully compliant implementation of IERC721 with significant gas savings for minting multiple NFTs in a single transaction. This project and implementation will be updated regularly and will continue to stay up to date with best practices.
 
@@ -77,6 +81,8 @@ contract Azuki is ERC721A {
 
 <!-- ROADMAP -->
 
+<!--
+
 ## Roadmap
 
 - [ ] Improve general repo and code quality (workflows, comments, etc.)
@@ -84,6 +90,8 @@ contract Azuki is ERC721A {
 - [ ] Maintain full test coverage
 
 See the [open issues](https://github.com/chiru-labs/ERC721A/issues) for a full list of proposed features (and known issues).
+
+-->
 
 <!-- CONTRIBUTING -->
 
