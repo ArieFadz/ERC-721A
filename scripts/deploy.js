@@ -4,19 +4,19 @@ const { ethers, upgrades } = require('hardhat');
 const fs = require('fs');
 
 async function main () {
-    const Something = await ethers.getContractFactory('Something');
+    const NFTCollectible = await ethers.getContractFactory('NFTCollectible');
     console.log('Deploying...');
-    const something = await upgrades.deployProxy(
-        Something, 
+    const nftcollectible = await upgrades.deployProxy(
+        NFTCollectible, 
         [], 
         { initializer: 'initialize' }
     );
-    await something.deployed();
+    await nftcollectible.deployed();
     const addresses = {
-        proxy: something.address,
-        admin: await upgrades.erc1967.getAdminAddress(something.address), 
+        proxy: nftcollectible.address,
+        admin: await upgrades.erc1967.getAdminAddress(nftcollectible.address), 
         implementation: await upgrades.erc1967.getImplementationAddress(
-            something.address)
+            nftcollectible.address)
     };
     console.log('Addresses:', addresses);
 
