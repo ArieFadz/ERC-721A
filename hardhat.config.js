@@ -2,13 +2,26 @@
 // Local
 // hardhat.config.js
 require("@nomiclabs/hardhat-waffle");
-require('@openzeppelin/hardhat-upgrades');
+//require("@nomiclabs/hardhat-ethers");
+require("@openzeppelin/hardhat-upgrades");
 
+/**
+ * @type import('hardhat/config').HardhatUserConfig
+ */
 module.exports = {
-    solidity: "0.8.11"
+  solidity: {
+    version: "0.8.17",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 800,
+      },
+    },
+  },
+  plugins: ["solidity-coverage"],
 };
- 
 
+ 
 /**
 * // Testnet / Mainnet
 * require("@nomiclabs/hardhat-waffle");
