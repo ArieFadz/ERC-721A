@@ -21,10 +21,32 @@ _We highly recommend reading the migration guide_, **especially** _the part on [
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## About The Project : ERC721A
 
-For learning purpose
+For learning purpose..!
 
+.
+
+## Error
+
+    Compiled 14 Solidity files successfully
+
+    Deploying...
+
+
+    C:\Users\ARIE\ERC721A\node_modules\@ethersproject\logger\src.ts\index.ts:225
+    const error: any = new Error(message);
+                           ^
+    Error: types/values length mismatch (count={"types":4,"values":0}, value={"types":[{"name":"maxBatchSize_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true},{"name":"collectionSize_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true},{"name":"amountForAuctionAndDev_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true},{"name":"amountForDevs_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true}],"values":[]}, code=INVALID_ARGUMENT, version=abi/5.5.0)
+    at Logger.makeError (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\logger\src.ts\index.ts:225:28)
+    at Logger.throwError (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\logger\src.ts\index.ts:237:20)
+    at AbiCoder.encode (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\abi\src.ts\abi-coder.ts:102:20)
+    at Interface._encodeParams (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\abi\src.ts\interface.ts:325:31)
+    at Interface.encodeDeploy (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\abi\src.ts\interface.ts:329:21)
+    at getDeployData (C:\Users\ARIE\ERC721A\node_modules\@openzeppelin\hardhat-upgrades\src\utils\deploy-impl.ts:49:45)
+    at deployProxyImpl (C:\Users\ARIE\ERC721A\node_modules\@openzeppelin\hardhat-upgrades\src\utils\deploy-impl.ts:72:22)
+    at Proxy.deployProxy (C:\Users\ARIE\ERC721A\node_modules\@openzeppelin\hardhat-upgrades\src\deploy-proxy.ts:35:28)
+    at main (C:\Users\ARIE\ERC721A\scripts\deploy.js:8:19)
 .
 
 <!-- 
@@ -43,15 +65,15 @@ For more information on how ERC721A works under the hood, please visit our [blog
 
 ## Docs
 
-https://chiru-labs.github.io/ERC721A/
+    https://chiru-labs.github.io/ERC721A/
 
-<!-- Upgradeable Version -->
+<!-- Upgradeable Version 
 
 ## Upgradeable Version
 
-https://github.com/chiru-labs/ERC721A-Upgradeable
+https://github.com/chiru-labs/ERC721A-Upgradeable  -->
 
-<!-- Installation -->
+<!-- Installation
 
 ## Installation
 
@@ -59,9 +81,9 @@ https://github.com/chiru-labs/ERC721A-Upgradeable
 
 npm install --save-dev erc721a
 
-```
+``` -->
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES
 
 ## Usage
 
@@ -81,7 +103,7 @@ contract Azuki is ERC721A {
     }
 }
 
-```
+``` -->
 
 <!-- ROADMAP -->
 
@@ -105,20 +127,14 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
-Don't forget to give the project a star! Thanks again!
+<!-- Don't forget to give the project a star! --> Thanks!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<!-- ROADMAP -->
+<!-- ROADMAP
 
 ### Running tests locally
 
 1. `npm install`
-2. `npm run test`
+2. `npm run test` -->
 
 <!-- LICENSE -->
 
@@ -138,7 +154,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 -->
 
-Project Link: [https://github.com/chiru-labs/ERC721A](https://github.com/chiru-labs/ERC721A)
+    Project Link: [https://github.com/chiru-labs/ERC721A](https://github.com/chiru-labs/ERC721A)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
