@@ -1,13 +1,13 @@
 //  https://chiru-labs.github.io/ERC721A/#/upgradeable?id=deployment
-//  scripts/upgrade.js
+// scripts/upgrade.js
 const { ethers, upgrades } = require('hardhat');
 const fs = require('fs');
 
 async function main () {
-    const Something = await ethers.getContractFactory('Something');
+    const NFTCollectible = await ethers.getContractFactory('NFTCollectible');
     console.log('Upgrading...');
     let addresses = JSON.parse(fs.readFileSync('deployment-addresses.json'));
-    await upgrades.upgradeProxy(addresses.proxy, Something);
+    await upgrades.upgradeProxy(addresses.proxy, NFTCollectible);
     console.log('Upgraded');
 
     addresses = {
