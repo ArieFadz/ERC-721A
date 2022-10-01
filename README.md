@@ -26,29 +26,34 @@ _We highly recommend reading the migration guide_, **especially** _the part on [
 
 For learning purpose..!
 
-.
+&nbsp;
 
 ## Error
 
-    Compiled 14 Solidity files successfully
+    Compiled 15 Solidity files successfully
 
     Deploying...
-
-
-    C:\Users\ARIE\ERC721A\node_modules\@ethersproject\logger\src.ts\index.ts:225
-    const error: any = new Error(message);
-                           ^
-    Error: types/values length mismatch (count={"types":4,"values":0}, value={"types":[{"name":"maxBatchSize_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true},{"name":"collectionSize_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true},{"name":"amountForAuctionAndDev_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true},{"name":"amountForDevs_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true}],"values":[]}, code=INVALID_ARGUMENT, version=abi/5.5.0)
-    at Logger.makeError (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\logger\src.ts\index.ts:225:28)
-    at Logger.throwError (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\logger\src.ts\index.ts:237:20)
-    at AbiCoder.encode (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\abi\src.ts\abi-coder.ts:102:20)
-    at Interface._encodeParams (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\abi\src.ts\interface.ts:325:31)
-    at Interface.encodeDeploy (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\abi\src.ts\interface.ts:329:21)
+    
+    Error: types/values length mismatch (count={"types":4,"values":0}, value={"types":[{"name":"maxBatchSize_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true},{"name":"collectionSize_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true},{"name":"amountForAuctionAndDev_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true},{"name":"amountForDevs_","type":"uint256","indexed":null,"components":null,"arrayLength":null,"arrayChildren":null,"baseType":"uint256","_isParamType":true}],"values":[]}, code=INVALID_ARGUMENT, version=abi/5.7.0)
+    at Logger.makeError (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\logger\src.ts\index.ts:269:28)
+    at Logger.throwError (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\logger\src.ts\index.ts:281:20)
+    at AbiCoder.encode (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\abi\src.ts\abi-coder.ts:101:20)
+    at Interface._encodeParams (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\abi\src.ts\interface.ts:323:31)
+    at Interface.encodeDeploy (C:\Users\ARIE\ERC721A\node_modules\@ethersproject\abi\src.ts\interface.ts:327:21)
     at getDeployData (C:\Users\ARIE\ERC721A\node_modules\@openzeppelin\hardhat-upgrades\src\utils\deploy-impl.ts:49:45)
     at deployProxyImpl (C:\Users\ARIE\ERC721A\node_modules\@openzeppelin\hardhat-upgrades\src\utils\deploy-impl.ts:72:22)
     at Proxy.deployProxy (C:\Users\ARIE\ERC721A\node_modules\@openzeppelin\hardhat-upgrades\src\deploy-proxy.ts:35:28)
-    at main (C:\Users\ARIE\ERC721A\scripts\deploy.js:8:19)
-.
+    at main (C:\Users\ARIE\ERC721A\scripts\deploy.js:9:19) {
+    reason: 'types/values length mismatch',
+    code: 'INVALID_ARGUMENT',
+    count: { types: 4, values: 0 },
+    value: {
+    types: [ [ParamType], [ParamType], [ParamType], [ParamType] ],
+    values: []
+      }
+    }
+
+&nbsp;
 
 <!-- 
 The goal of ERC721A is to provide a fully compliant implementation of IERC721 with significant gas savings for minting multiple NFTs in a single transaction. This project and implementation will be updated regularly and will continue to stay up to date with best practices.
@@ -65,6 +70,9 @@ For more information on how ERC721A works under the hood, please visit our [blog
 <!-- Docs -->
 
 ## Docs
+
+&nbsp;
+
 <!--
     https://chiru-labs.github.io/ERC721A/
 
