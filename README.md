@@ -1,10 +1,11 @@
+<!--
 [![Docs][docs-shield]][docs-url]
 [![NPM][npm-shield]][npm-url]
 [![CI][ci-shield]][ci-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![Coverage][coverage-shield]][coverage-url]
-<!-- OTHER BADGES -->
+ OTHER BADGES -->
 <!-- [![Contributors][contributors-shield]][contributors-url] -->
 <!-- [![Forks][forks-shield]][forks-url] -->
 <!-- [![Stargazers][stars-shield]][stars-url] -->
@@ -21,7 +22,7 @@ _We highly recommend reading the migration guide_, **especially** _the part on [
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project : ERC721A
+## About The Project : NFTCollectible
 
 For learning purpose..!
 
@@ -64,10 +65,10 @@ For more information on how ERC721A works under the hood, please visit our [blog
 <!-- Docs -->
 
 ## Docs
-
+<!--
     https://chiru-labs.github.io/ERC721A/
 
-<!-- Upgradeable Version 
+ Upgradeable Version 
 
 ## Upgradeable Version
 
@@ -125,7 +126,7 @@ See the [open issues](https://github.com/chiru-labs/ERC721A/issues) for a full l
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
 
 <!-- Don't forget to give the project a star! --> Thanks!
 
@@ -154,11 +155,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 -->
 
-    Project Link: [https://github.com/chiru-labs/ERC721A](https://github.com/chiru-labs/ERC721A)
+<!-- Project Link: [https://github.com/chiru-labs/ERC721A](https://github.com/chiru-labs/ERC721A) -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links
 
 [docs-shield]: https://img.shields.io/badge/docs-%F0%9F%93%84-blue?style=for-the-badge
 [docs-url]: https://chiru-labs.github.io/ERC721A/
@@ -166,7 +167,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [npm-url]: https://www.npmjs.com/package/erc721a
 [ci-shield]: https://img.shields.io/github/workflow/status/chiru-labs/ERC721A/ERC721A%20CI?label=build&style=for-the-badge
 [ci-url]: https://github.com/ArieFadz/ERC-721A/actions/workflows/run_tests.yml
-<!-- [ci-url]: https://github.com/chiru-labs/ERC721A/actions/workflows/run_tests.yml -->
+[ci-url]: https://github.com/chiru-labs/ERC721A/actions/workflows/run_tests.yml
 [contributors-shield]: https://img.shields.io/github/contributors/chiru-labs/ERC721A.svg?style=for-the-badge
 [contributors-url]: https://github.com/chiru-labs/ERC721A/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/chiru-labs/ERC721A.svg?style=for-the-badge
@@ -180,3 +181,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [coverage-shield]: https://img.shields.io/codecov/c/gh/chiru-labs/ERC721A?style=for-the-badge
 [coverage-url]: https://codecov.io/gh/chiru-labs/ERC721A
 [product-screenshot]: images/screenshot.png
+ -->
