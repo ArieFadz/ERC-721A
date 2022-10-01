@@ -1,4 +1,4 @@
-// Azuki contract: https://etherscan.io/address/0xed5af388653567af2f388e6224dc7c4b3241c544#code
+
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
